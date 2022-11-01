@@ -1,0 +1,17 @@
+p
+{
+    color: darkgreen;
+}
+
+.header-background
+{
+    background-color: black;
+    color: purple;
+    text-decoration: underline;
+}
+
+#bigger-font
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+}
