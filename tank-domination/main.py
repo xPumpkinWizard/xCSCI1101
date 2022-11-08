@@ -11,6 +11,12 @@ pygame.display.set_caption("Tank Domination")
 
 system_clock = pygame.time.Clock()
 
+game_characteristics = {
+    "sky": {
+        "color": (130,206,235)
+    }
+}
+
 # game logic
 game_running_flag = True
 
@@ -25,6 +31,8 @@ while game_running_flag:
         break
     
     # running game mechaninces 
+    game_display.fill(game_characteristics["sky"]["color"])
+
     pygame.display.update()
 
     system_clock.tick(60)
